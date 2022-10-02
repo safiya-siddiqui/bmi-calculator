@@ -78,7 +78,8 @@ int main()
     // checking if intersection is present
     Node *answerNode = intersectionpoint(head, head2);
     if (answerNode == NULL)
-        cout << "No intersection\n";
+        cout << "The intersection" << endl;
+
     else
         cout << "The intersection point is " << answerNode->num << endl;
 
